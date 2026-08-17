@@ -1,7 +1,12 @@
-const rpcUrl = "http://localhost:26657";
+/** Default product network after install: Space Pussy */
+const rpcUrl = "https://rpc.space-pussy.cybernode.ai";
+// bostrom: "https://rpc.bostrom.cybernode.ai"
+// local:   "http://localhost:26657"
+
 const validatorMnemonic =
-  "satisfy adjust timber high purchase tuition stool faith fine install that you unaware feed domain license impose boss human eager hat rent enjoy dawn";
-// const neuronValidator = "bostrom1phaxpevm5wecex2jyaqty2a4v02qj7qm5n94ug";
-const prefix = "bostrom";
+  "economy stock theory fatal elder harbor betray workshop december half shoe cabbage";
+
+const prefix = "pussy";
+// bostrom: "bostrom"
 
 export { rpcUrl, validatorMnemonic, prefix };
