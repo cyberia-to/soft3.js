@@ -19,6 +19,7 @@
     "access": "public"
   },
   "scripts": {
+    "test:compat": "node --test tests/neuron-compat.cjs",
     "build": "tsc",
     "get-proto": "./get-proto.sh",
     "define-proto": "./define-proto.sh",

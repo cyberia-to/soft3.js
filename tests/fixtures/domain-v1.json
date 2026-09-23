@@ -1,0 +1,24 @@
+[
+  {
+    "address": "lytics1h2799ranw638cp8cn5ygmlvcvt7yhzyxrqcur4",
+    "adr036_doc": "{\"account_number\":\"0\",\"chain_id\":\"\",\"fee\":{\"amount\":[],\"gas\":\"0\"},\"memo\":\"\",\"msgs\":[{\"type\":\"sign/MsgSignData\",\"value\":{\"data\":\"eyJoZWxsbyI6IndvcmxkIn0=\",\"signer\":\"lytics1h2799ranw638cp8cn5ygmlvcvt7yhzyxrqcur4\"}}],\"sequence\":\"0\"}",
+    "body": "{\"hello\":\"world\"}",
+    "domain": "example.com",
+    "entropy_hex": "0707070707070707070707070707070707070707070707070707070707070707",
+    "hrp": "lytics",
+    "native_hex": "ff827e3f76be1676fec97705900b8140985636707d0b805942b9692f7371ff78",
+    "pubkey_hex": "03d0e74f894c1658d1c7ea8a8885e450251549d370ed9b59f41ea9a6ffa11cf91e",
+    "signature_hex": "64f1d62893ce3bcd91cb7b7bd8397b13c68028ef1ef13d64a9e113c9583394284b1c63d983811af67f8aff4df17d572f521bfac1539a0101b8657e6bf607f297"
+  },
+  {
+    "address": "cyber1uj73l0ym4akga7mdc5qn7c4ytr8l2vlwxwkwed",
+    "adr036_doc": "{\"account_number\":\"0\",\"chain_id\":\"\",\"fee\":{\"amount\":[],\"gas\":\"0\"},\"memo\":\"\",\"msgs\":[{\"type\":\"sign/MsgSignData\",\"value\":{\"data\":\"ZnJvbXxyZWx8dG98MS4yNTAwMDA=\",\"signer\":\"cyber1uj73l0ym4akga7mdc5qn7c4ytr8l2vlwxwkwed\"}}],\"sequence\":\"0\"}",
+    "body": "from|rel|to|1.250000",
+    "domain": "cyberia.my",
+    "entropy_hex": "0707070707070707070707070707070707070707070707070707070707070707",
+    "hrp": "cyber",
+    "native_hex": "9e2ef9fe404be68b376f95ccd233f0763512582bc0332e0eea72463d1ccdcefe",
+    "pubkey_hex": "03a3c962caa6729e785a8893d870057bd9ddf88899292979eb779267de63711a2a",
+    "signature_hex": "0bcc45c7564c195f7f7817aabdb162fddd643441efc8a8ed93bc4ab647c744f60285c2b77b4e29e5d1a45275735361f1a931a2983cc338fc861266d46157c84f"
+  }
+]

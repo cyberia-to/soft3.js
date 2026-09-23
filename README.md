@@ -39,3 +39,20 @@ yarn build
 
 yarn lint-fix
 ```
+
+
+## Neuron convergence compatibility
+
+This package remains the Cosmos/CosmWasm SDK for existing accounts and chain
+schemas. Its neuron fields are the original bech32 addresses; they are not
+runtime prog/task IDs. The Rust neuron convergence does not change signing
+bytes, protobuf tags, contract addresses, keys or dependency versions here.
+
+After installing the pinned lockfile, run `npm run build` and
+`npm run test:compat`. Offline vectors independently verify the frozen mudra
+ADR-036 signatures through CosmJS, known Cosmos HD key/address derivation,
+MsgCyberlink amino/protobuf bytes and CosmWasm MsgExecuteContract fields.
+The domain fixture comes from mudra 348c46195388ac009667144987511a0e33bdc859;
+its capture source hashes are retained in the soft3 convergence audit. This is
+compatibility evidence, not a claim of native NSIG1 transport or neuron runtime
+execution in the JavaScript SDK.
